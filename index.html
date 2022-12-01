@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li>Terry's Portfolio</li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Socials</a></li>
+            <li><a href="#">GitHub</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:50px;">Terry Kubalewski</h1>
+            <p>Software Developer</p>
+        </div>
+    </div>
+
+<main>
+
+    <div id="main">
+        <article class="main-articles" id="my-story">
+            <h1>My Story</h1>
+            <strong><small>How I ended up here....</small></strong>
+            <p>I've been in customer facing roles for almost 2 decades now and I can't remember a time I ever actually enjoyed it. Maybe I finally smartened up, or maybe it's a midlife crisis, either way I decided to completely change my trajectory. I quit selling insurance to people who don't want to buy insurance and started looking at options. A former employee reached out and told me about a coding bootcamp he had taken. After a few YouTube videos and some phone calls I decided that coding was something I'd be interested in learning more about. I have never had any experience with anything like this before but I've never shyed away from a challenge.</p>
+        </article>
+
+        <article class="main-articles">
+            <h1>My Pets</h1>
+            <strong><small>Meet Sky, Mango, and Mikey....</small></strong>
+
+            <div class="pet-pics">
+                <figure class="my-pets">
+                    <img src="images/sky.jpg" id="sky-pic">
+                    <figcaption>Sky</figcaption>
+                </figure>
+                <figure class="my-pets">
+                    <img src="images/mango.jpg" id="mango-pic">
+                    <figcaption>Mango</figcaption>
+                </figure>
+                <figure class="my-pets">
+                    <img src="images/mikey.jpg" id="mikey-pic">
+                    <figcaption>Mikey</figcaption>
+                </figure>
+            </div>
+            
+            <div class="pet-intro">
+                <p>I feel like I need to start by saying that I have a son. He's 20 and recently decided he doesn't want to live with his dad anymore, which is understandable. I say that to say this, I've always been an animal guy but it's gone to a whole new level since I became an empty nester. The three pictured above are now the recipients of countless hours of fatherly advice and terrible jokes.</p>
+            </div>
+            <div class="pet-bios">
+                <p>Sky is the oldest. I've had her since 2013 and outside of my wife she's probably my best friend. She's old and set in her ways but she's a sweetheart.</p>
+                <p>Mango is the newest of the bunch. He's a lot of fun to watch because he's goofy as hell but overall he's a terrible dog. He doesn't destroy anything or really cause any problems, he just doesn't listen to anybody and is basically a bulldozer on legs.</p>
+                <p>Mikey is the smallest of the group but is without a doubt the one in charge. The truth is, Mikey doesn't give a crap about you, me, or anybody else. If he had money to buy food and thumbs to open it up he probably wouldn't still be living here. We're basically all here to make sure Mikey is happy.</p>
+            </div>
+
+        </article>
+
+        
+    </div>
+
+    <div id="side">
+        <article class="side-articles" id="profile">
+            <img id="profile-image" src="images/My Pic.jpg">
+            <div id="profile-details">
+                <h2>Terry Kubalewski</h2>
+                <ul>
+                    <li>123 Fake St</li>
+                    <li>York, PA 17402</li>
+                    <li>(999) 555 -2222</li>
+                    <li><a href="mailto:tski2002@gmail.com">tski2002@gmail.com</a></li>
+                </ul>
+            </div>
+        </article>
+        
+        <article class="side-articles">
+            <h1>Contact Me</h1>
+            <strong><small>Please contact me with questions</small></strong>
+            <br>
+            <form action="mailto:tski2002@gmail.com" method="POST">
+                <label for="name"><strong>Name</strong></label>
+                <br>
+                <input type="text" id="name" placeholder="Your Name">
+                <br>
+                <label for="body"><strong>Message</strong></label>
+                <br>
+                <textarea id="body" placeholder="Your Message" rows="5"></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </article>
+    </div>
+
+</main>
+
+<footer>
+    <hr>
+    <div>
+        &copy Terry Kubalewski 2022
+    </div>
+</footer>
+
+</body>
+</html>
